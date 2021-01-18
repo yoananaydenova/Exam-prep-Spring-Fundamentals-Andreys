@@ -26,6 +26,7 @@ public class HomeController {
             modelAndView.addObject("items", this.itemService.findAllItems());
             modelAndView.setViewName("home");
         }
+
         return modelAndView;
     }
 }
